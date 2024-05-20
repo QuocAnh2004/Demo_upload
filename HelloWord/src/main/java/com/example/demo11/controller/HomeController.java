@@ -10,7 +10,7 @@ public class HomeController {
 	// cấu trúc trả về kiểu String
 	public String Home(Model model)
 	{
-		model.addAttribute("message", "Hello home VN QA PS30771");
+		model.addAttribute("message", "Hello home VN QA PS30771 cmmmmm");
 		return "index"; // do tại application đã cấu hình chỉ ra đường dẫn và đuôi jsp nên chỉ cần ghi tên file
 	}
 }
